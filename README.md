@@ -1,20 +1,25 @@
-# Network Connection Troubleshooting Guide
+# IT Support Troubleshooting Guides
 
-**Issue:** User unable to connect to the network or limited connectivity.
+## Overview
+This repository serves as my personal technical knowledge base. It contains systematic, step-by-step guides for troubleshooting common IT issues encountered in enterprise environments, covering hardware, networking, and software systems.
 
-### 1. Initial Assessment
-* Verify physical connection (Ethernet cable integrity).
-* Check status lights on the NIC (Network Interface Card).
+## My Approach
+I believe that **"Documenting today prevents troubleshooting tomorrow."** This repository highlights:
+- **Analytical Thinking:** A logical approach to diagnosing the root cause before applying a fix.
+- **Documentation Skills:** Turning complex technical steps into clear, actionable guides.
+- **Continuous Learning:** Documenting solutions to ensure efficiency and reduce system downtime.
 
-### 2. Diagnostic Steps
-Execute the following commands in CMD (Command Prompt) with admin privileges:
-- **`ipconfig /release`**: Releases current IP address.
-- **`ipconfig /renew`**: Requests a new IP from the DHCP server.
-- **`ipconfig /flushdns`**: Clears DNS cache to resolve connectivity issues.
-- **`ping 8.8.8.8`**: Checks external internet connectivity.
+## Knowledge Base Index
+Below are the troubleshooting guides I have documented:
 
-### 3. Resolution
-If ping fails to local gateway, check router configurations and switch ports.
+### 🌐 Networking
+- [Network Connection Troubleshooting](Network-Troubleshooting.md)
 
-### 4. Verification
-Re-run `ping` and open a web browser to confirm access.
+### 🖥️ Systems & Software
+- [Active Directory & User Management](AD-Guide.md)
+
+### 🖨️ Hardware & Peripherals
+- [Printer & Peripheral Setup](Printer-Troubleshooting.md)
+
+---
+*Note: This repository is a living document and is constantly updated as I encounter and resolve new technical challenges.*
